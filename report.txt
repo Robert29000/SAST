@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.12.0"/>
+    <errors>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: referrals" verbose="Null pointer dereference: referrals" cwe="476" file0="Access/LDAPClient.cpp">
+            <location file="Access\LDAPClient.cpp" line="533" column="40" info="Null pointer dereference"/>
+            <location file="Access\LDAPClient.cpp" line="530" column="37" info="Assignment &apos;referrals=nullptr&apos;, assigned value is 0"/>
+            <symbol>referrals</symbol>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: referrals" verbose="Null pointer dereference: referrals" cwe="476" file0="Access/LDAPClient.cpp">
+            <location file="Access\LDAPClient.cpp" line="535" column="137" info="Null pointer dereference"/>
+            <location file="Access\LDAPClient.cpp" line="530" column="37" info="Assignment &apos;referrals=nullptr&apos;, assigned value is 0"/>
+            <symbol>referrals</symbol>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If FOR_BASIC_NUMERIC_TYPES is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If FOR_BASIC_NUMERIC_TYPES is a macro then please configure it." file0="AggregateFunctions/AggregateFunctionMLMethod.cpp">
+            <location file="AggregateFunctions\Helpers.h" line="223" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Analyzer/ColumnTransformers.cpp">
+            <location file="Analyzer\ColumnTransformers.cpp" line="29" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Analyzer/ColumnTransformers.cpp">
+            <location file="Analyzer\ColumnTransformers.cpp" line="45" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Analyzer/ColumnTransformers.cpp">
+            <location file="Analyzer\ColumnTransformers.cpp" line="148" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Analyzer/IQueryTreeNode.cpp">
+            <location file="Analyzer\IQueryTreeNode.cpp" line="26" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Analyzer/MatcherNode.cpp">
+            <location file="Analyzer\MatcherNode.cpp" line="23" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Analyzer/Passes/QueryAnalysisPass.cpp">
+            <location file="Analyzer\Passes\QueryAnalysisPass.cpp" line="221" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Analyzer/Passes/QueryAnalysisPass.cpp">
+            <location file="Analyzer\Passes\QueryAnalysisPass.cpp" line="231" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Analyzer/Passes/QueryAnalysisPass.cpp">
+            <location file="Analyzer\Passes\QueryAnalysisPass.cpp" line="300" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Analyzer/SortNode.cpp">
+            <location file="Analyzer\SortNode.cpp" line="19" column="5"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="Backups/BackupsWorker.cpp">
+            <location file="Backups\BackupsWorker.cpp" line="656" column="44"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If INSTANTIATE_INDEX_IMPL is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If INSTANTIATE_INDEX_IMPL is a macro then please configure it." file0="Columns/ColumnAggregateFunction.cpp">
+            <location file="Columns\ColumnAggregateFunction.cpp" line="346" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If INSTANTIATE_INDEX_IMPL is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If INSTANTIATE_INDEX_IMPL is a macro then please configure it." file0="Columns/ColumnArray.cpp">
+            <location file="Columns\ColumnArray.cpp" line="851" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Columns/ColumnVector.cpp">
+            <location file="Columns\ColumnVector.h" line="415" column="1"/>
+        </error>
+        <error id="internalAstError" severity="error" msg="Syntax Error: AST broken, binary operator &apos;=&apos; doesn&apos;t have two operands." verbose="Syntax Error: AST broken, binary operator &apos;=&apos; doesn&apos;t have two operands." file0="Columns/MaskOperations.cpp">
+            <location file="Columns\MaskOperations.cpp" line="41" column="25"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If STRONG_TYPEDEF is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If STRONG_TYPEDEF is a macro then please configure it." file0="Common/DateLUT.cpp">
+            <location file="Common\DateLUTImpl.h" line="70" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Common/EnvironmentProxyConfigurationResolver.cpp">
+            <location file="Common\EnvironmentProxyConfigurationResolver.cpp" line="30" column="9"/>
+        </error>
+        <error id="rethrowNoCurrentException" severity="error" msg="Rethrowing current exception with &apos;throw;&apos;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" verbose="Rethrowing current exception with &apos;throw;&apos;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" cwe="480" file0="Common/Exception.cpp">
+            <location file="Common\Exception.cpp" line="393" column="9"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &apos;)&apos;. Configuration: &apos;&apos;." verbose="Unmatched &apos;)&apos;. Configuration: &apos;&apos;." file0="Common/ProfileEvents.cpp">
+            <location file="Common\ProfileEvents.cpp" line="19" column="3"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &apos;)&apos;. Configuration: &apos;APPLY_FOR_EXTERNAL_EVENTS&apos;." verbose="Unmatched &apos;)&apos;. Configuration: &apos;APPLY_FOR_EXTERNAL_EVENTS&apos;." file0="Common/ProfileEvents.cpp">
+            <location file="Common\ProfileEvents.cpp" line="19" column="3"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SYSTEM_LOG_ELEMENTS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SYSTEM_LOG_ELEMENTS is a macro then please configure it." file0="Common/SystemLogBase.cpp">
+            <location file="Common\SystemLogBase.cpp" line="262" column="1"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: *ptr" verbose="Uninitialized variable: *ptr" cwe="457" file0="Common/formatIPv6.cpp">
+            <location file="Common\formatIPv6.cpp" line="94" column="20"/>
+            <location file="Common\formatIPv6.cpp" line="83" column="22" info="Assuming condition is false"/>
+            <location file="Common\formatIPv6.cpp" line="81" column="20" info="Assignment &apos;ptr=buf&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>*ptr</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Common/tests/gtest_proxy_environment_configuration.cpp">
+            <location file="Common\tests\gtest_proxy_environment_configuration.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Common/tests/gtest_proxy_list_configuration_resolver.cpp">
+            <location file="Common\tests\gtest_proxy_list_configuration_resolver.cpp" line="15" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If STRONG_TYPEDEF is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If STRONG_TYPEDEF is a macro then please configure it." file0="Common/tests/gtest_strong_typedef.cpp">
+            <location file="Common\tests\gtest_strong_typedef.cpp" line="13" column="5"/>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: length" verbose="Uninitialized variable: length" cwe="457" file0="Compression/LZ4_decompress_faster.cpp">
+            <location file="Compression\LZ4_decompress_faster.cpp" line="746" column="17"/>
+            <symbol>length</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: length" verbose="Uninitialized variable: length" cwe="457" file0="Compression/LZ4_decompress_faster.cpp">
+            <location file="Compression\LZ4_decompress_faster.cpp" line="503" column="17"/>
+            <symbol>length</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Compression/tests/gtest_compressionCodec.cpp">
+            <location file="Compression\tests\gtest_compressionCodec.cpp" line="522" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Coordination/CoordinationSettings.cpp">
+            <location file="Coordination\CoordinationSettings.cpp" line="15" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Coordination/Standalone/Settings.cpp">
+            <location file="Coordination\Standalone\Settings.cpp" line="6" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT is a macro then please configure it." file0="Coordination/tests/gtest_coordination.cpp">
+            <location file="Coordination\tests\gtest_coordination.cpp" line="275" column="5"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If APPLY_FOR_BLOCK_INFO_FIELDS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If APPLY_FOR_BLOCK_INFO_FIELDS is a macro then please configure it." file0="Core/BlockInfo.cpp">
+            <location file="Core\BlockInfo.cpp" line="28" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Core/Joins.cpp">
+            <location file="Core\Joins.cpp" line="9" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Core/Joins.cpp">
+            <location file="Core\Joins.cpp" line="22" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Core/Joins.cpp">
+            <location file="Core\Joins.cpp" line="36" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Core/Joins.cpp">
+            <location file="Core\Joins.cpp" line="46" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Core/Joins.cpp">
+            <location file="Core\Joins.cpp" line="58" column="5"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Core/Joins.cpp">
+            <location file="Core\Joins.cpp" line="74" column="5"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Core/ServerSettings.cpp">
+            <location file="Core\ServerSettings.cpp" line="7" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Core/Settings.cpp">
+            <location file="Core\Settings.cpp" line="20" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTING_ENUM is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTING_ENUM is a macro then please configure it." file0="Core/SettingsEnums.cpp">
+            <location file="Core\SettingsEnums.cpp" line="20" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ASSERT is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ASSERT is a macro then please configure it." file0="Core/examples/mysql_protocol.cpp">
+            <location file="Core\examples\mysql_protocol.cpp" line="56" column="9"/>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: res" verbose="Possible null pointer dereference: res" cwe="476" file0="Core/examples/string_pool.cpp">
+            <location file="Core\examples\string_pool.cpp" line="77" column="23" info="Null pointer dereference"/>
+            <location file="Core\examples\string_pool.cpp" line="65" column="49" info="Assuming condition is false"/>
+            <location file="Core\examples\string_pool.cpp" line="63" column="28" info="Assignment &apos;res=nullptr&apos;, assigned value is 0"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Core/tests/gtest_DecimalFunctions.cpp">
+            <location file="Core\tests\gtest_DecimalFunctions.cpp" line="61" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Core/tests/gtest_charset_conv.cpp">
+            <location file="Core\tests\gtest_charset_conv.cpp" line="17" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Databases/DatabaseReplicatedSettings.cpp">
+            <location file="Databases\DatabaseReplicatedSettings.cpp" line="8" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Databases/MySQL/MaterializedMySQLSettings.cpp">
+            <location file="Databases\MySQL\MaterializedMySQLSettings.cpp" line="14" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Disks/IDisk.cpp">
+            <location file="Disks\IDisk.cpp" line="112" column="21"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Disks/IO/getThreadPoolReader.cpp">
+            <location file="Disks\IO\getThreadPoolReader.cpp" line="32" column="5"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/CRC.cpp">
+            <location file="Functions\CRC.cpp" line="156" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/CastOverloadResolver.cpp">
+            <location file="Functions\CastOverloadResolver.cpp" line="154" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionChar.cpp">
+            <location file="Functions\FunctionChar.cpp" line="117" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionFQDN.cpp">
+            <location file="Functions\FunctionFQDN.cpp" line="47" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionFile.cpp">
+            <location file="Functions\FunctionFile.cpp" line="163" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionGenerateRandomStructure.cpp">
+            <location file="Functions\FunctionGenerateRandomStructure.cpp" line="425" column="1"/>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: offsets" verbose="Possible null pointer dereference: offsets" cwe="476" file0="Functions/FunctionHelpers.cpp">
+            <location file="Functions\FunctionHelpers.cpp" line="217" column="29" info="Null pointer dereference"/>
+            <location file="Functions\FunctionHelpers.cpp" line="202" column="26" info="Assuming condition is false"/>
+            <location file="Functions\FunctionHelpers.cpp" line="201" column="44" info="Assignment &apos;offsets=nullptr&apos;, assigned value is 0"/>
+            <symbol>offsets</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionJoinGet.cpp">
+            <location file="Functions\FunctionJoinGet.cpp" line="199" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsBinaryRepresentation.cpp">
+            <location file="Functions\FunctionsBinaryRepresentation.cpp" line="716" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsBitToArray.cpp">
+            <location file="Functions\FunctionsBitToArray.cpp" line="331" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsCharsetClassification.cpp">
+            <location file="Functions\FunctionsCharsetClassification.cpp" line="149" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsCodingIP.cpp">
+            <location file="Functions\FunctionsCodingIP.cpp" line="1146" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsCodingULID.cpp">
+            <location file="Functions\FunctionsCodingULID.cpp" line="170" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsCodingUUID.cpp">
+            <location file="Functions\FunctionsCodingUUID.cpp" line="322" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsHashingInt.cpp">
+            <location file="Functions\FunctionsHashing.h" line="916" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsLanguageClassification.cpp">
+            <location file="Functions\FunctionsLanguageClassification.cpp" line="228" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsOpDate.cpp">
+            <location file="Functions\FunctionsOpDate.cpp" line="100" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsProgrammingClassification.cpp">
+            <location file="Functions\FunctionsProgrammingClassification.cpp" line="118" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="Functions/FunctionsRandom.cpp">
+            <location file="Functions\FunctionsRandom.cpp" line="99" column="32"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsStringDistance.cpp">
+            <location file="Functions\FunctionsStringDistance.cpp" line="298" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsStringHash.cpp">
+            <location file="Functions\FunctionsStringHash.cpp" line="770" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsStringSimilarity.cpp">
+            <location file="Functions\FunctionsStringSimilarity.cpp" line="557" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsTimeWindow.cpp">
+            <location file="Functions\FunctionsTimeWindow.cpp" line="670" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsTonalityClassification.cpp">
+            <location file="Functions\FunctionsTonalityClassification.cpp" line="87" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/FunctionsTransactionCounters.cpp">
+            <location file="Functions\FunctionsTransactionCounters.cpp" line="64" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/GatherUtils/concat.cpp">
+            <location file="Functions\GatherUtils\sliceHasImplAnyAll.h" line="68" column="1"/>
+        </error>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning object that points to local variable &apos;lon&apos; that will be invalid when returning." verbose="Returning object that points to local variable &apos;lon&apos; that will be invalid when returning." cwe="562" file0="Functions/GeoHash.cpp">
+            <location file="Functions\GeoHash.cpp" line="153" column="20"/>
+            <location file="Functions\GeoHash.cpp" line="136" column="18" info="Variable created here."/>
+            <location file="Functions\GeoHash.cpp" line="153" column="21" info="Passed to &apos;tie&apos;."/>
+        </error>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning object that points to local variable &apos;lat&apos; that will be invalid when returning." verbose="Returning object that points to local variable &apos;lat&apos; that will be invalid when returning." cwe="562" file0="Functions/GeoHash.cpp">
+            <location file="Functions\GeoHash.cpp" line="153" column="20"/>
+            <location file="Functions\GeoHash.cpp" line="136" column="13" info="Variable created here."/>
+            <location file="Functions\GeoHash.cpp" line="153" column="26" info="Passed to &apos;tie&apos;."/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/JSONArrayLength.cpp">
+            <location file="Functions\JSONArrayLength.cpp" line="101" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/Kusto/KqlArraySort.cpp">
+            <location file="Functions\Kusto\KqlArraySort.cpp" line="258" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/URLHierarchy.cpp">
+            <location file="Functions\URL\URLHierarchy.cpp" line="107" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/URLPathHierarchy.cpp">
+            <location file="Functions\URL\URLPathHierarchy.cpp" line="108" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/basename.cpp">
+            <location file="Functions\URL\basename.cpp" line="37" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/cutFragment.cpp">
+            <location file="Functions\URL\cutFragment.cpp" line="11" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/cutQueryString.cpp">
+            <location file="Functions\URL\cutQueryString.cpp" line="11" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/cutQueryStringAndFragment.cpp">
+            <location file="Functions\URL\cutQueryStringAndFragment.cpp" line="11" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/cutToFirstSignificantSubdomain.cpp">
+            <location file="Functions\URL\cutToFirstSignificantSubdomain.cpp" line="44" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/cutToFirstSignificantSubdomainCustom.cpp">
+            <location file="Functions\URL\cutToFirstSignificantSubdomainCustom.cpp" line="43" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/cutURLParameter.cpp">
+            <location file="Functions\URL\cutURLParameter.cpp" line="172" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/cutWWW.cpp">
+            <location file="Functions\URL\cutWWW.cpp" line="57" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/decodeURLComponent.cpp">
+            <location file="Functions\URL\decodeURLComponent.cpp" line="184" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/domain.cpp">
+            <location file="Functions\URL\domain.cpp" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/domainWithoutWWW.cpp">
+            <location file="Functions\URL\domainWithoutWWW.cpp" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/extractURLParameter.cpp">
+            <location file="Functions\URL\extractURLParameter.cpp" line="95" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/extractURLParameterNames.cpp">
+            <location file="Functions\URL\extractURLParameterNames.cpp" line="91" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/extractURLParameters.cpp">
+            <location file="Functions\URL\extractURLParameters.cpp" line="100" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/firstSignificantSubdomain.cpp">
+            <location file="Functions\URL\firstSignificantSubdomain.cpp" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/firstSignificantSubdomainCustom.cpp">
+            <location file="Functions\URL\firstSignificantSubdomainCustom.cpp" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/fragment.cpp">
+            <location file="Functions\URL\fragment.cpp" line="11" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/netloc.cpp">
+            <location file="Functions\URL\netloc.cpp" line="151" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/path.cpp">
+            <location file="Functions\URL\path.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/pathFull.cpp">
+            <location file="Functions\URL\pathFull.cpp" line="13" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/port.cpp">
+            <location file="Functions\URL\port.cpp" line="139" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/protocol.cpp">
+            <location file="Functions\URL\protocol.cpp" line="12" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/queryString.cpp">
+            <location file="Functions\URL\queryString.cpp" line="11" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/queryStringAndFragment.cpp">
+            <location file="Functions\URL\queryStringAndFragment.cpp" line="11" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/URL/topLevelDomain.cpp">
+            <location file="Functions\URL\topLevelDomain.cpp" line="54" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/UTCTimestamp.cpp">
+            <location file="Functions\UTCTimestamp.cpp" line="108" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/UTCTimestampTransform.cpp">
+            <location file="Functions\UTCTimestampTransform.cpp" line="133" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/abs.cpp">
+            <location file="Functions\abs.cpp" line="52" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/acos.cpp">
+            <location file="Functions\acos.cpp" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/acosh.cpp">
+            <location file="Functions\acosh.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/alphaTokens.cpp">
+            <location file="Functions\alphaTokens.cpp" line="98" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/appendTrailingCharIfAbsent.cpp">
+            <location file="Functions\appendTrailingCharIfAbsent.cpp" line="117" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/FunctionsMapMiscellaneous.cpp">
+            <location file="Functions\array\FunctionsMapMiscellaneous.cpp" line="363" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/array.cpp">
+            <location file="Functions\array\array.cpp" line="103" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayAUC.cpp">
+            <location file="Functions\array\arrayAUC.cpp" line="200" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayAggregation.cpp">
+            <location file="Functions\array\arrayAggregation.cpp" line="426" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayAll.cpp">
+            <location file="Functions\array\arrayAll.cpp" line="66" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayCompact.cpp">
+            <location file="Functions\array\arrayCompact.cpp" line="163" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayConcat.cpp">
+            <location file="Functions\array\arrayConcat.cpp" line="82" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayCount.cpp">
+            <location file="Functions\array\arrayCount.cpp" line="83" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayCumSum.cpp">
+            <location file="Functions\array\arrayCumSum.cpp" line="178" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayCumSumNonNegative.cpp">
+            <location file="Functions\array\arrayCumSumNonNegative.cpp" line="143" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayDifference.cpp">
+            <location file="Functions\array\arrayDifference.cpp" line="168" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayDistinct.cpp">
+            <location file="Functions\array\arrayDistinct.cpp" line="290" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayDotProduct.cpp">
+            <location file="Functions\array\arrayDotProduct.cpp" line="73" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayElement.cpp">
+            <location file="Functions\array\arrayElement.cpp" line="1325" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayEnumerate.cpp">
+            <location file="Functions\array\arrayEnumerate.cpp" line="79" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayEnumerateDense.cpp">
+            <location file="Functions\array\arrayEnumerateDense.cpp" line="17" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayEnumerateDenseRanked.cpp">
+            <location file="Functions\array\arrayEnumerateDenseRanked.cpp" line="17" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayEnumerateUniq.cpp">
+            <location file="Functions\array\arrayEnumerateUniq.cpp" line="23" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayEnumerateUniqRanked.cpp">
+            <location file="Functions\array\arrayEnumerateUniqRanked.cpp" line="17" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayExists.cpp">
+            <location file="Functions\array\arrayExists.cpp" line="66" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayFill.cpp">
+            <location file="Functions\array\arrayFill.cpp" line="129" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayFilter.cpp">
+            <location file="Functions\array\arrayFilter.cpp" line="53" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayFirstLast.cpp">
+            <location file="Functions\array\arrayFirstLast.cpp" line="204" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayFirstLastIndex.cpp">
+            <location file="Functions\array\arrayFirstLastIndex.cpp" line="128" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayFlatten.cpp">
+            <location file="Functions\array\arrayFlatten.cpp" line="123" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayFold.cpp">
+            <location file="Functions\array\arrayFold.cpp" line="229" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayIntersect.cpp">
+            <location file="Functions\array\arrayIntersect.cpp" line="643" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayJaccardIndex.cpp">
+            <location file="Functions\array\arrayJaccardIndex.cpp" line="153" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayJoin.cpp">
+            <location file="Functions\array\arrayJoin.cpp" line="77" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayPopBack.cpp">
+            <location file="Functions\array\arrayPopBack.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayPopFront.cpp">
+            <location file="Functions\array\arrayPopFront.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayPushBack.cpp">
+            <location file="Functions\array\arrayPushBack.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayPushFront.cpp">
+            <location file="Functions\array\arrayPushFront.cpp" line="18" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayRandomSample.cpp">
+            <location file="Functions\array\arrayRandomSample.cpp" line="100" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayReduce.cpp">
+            <location file="Functions\array\arrayReduce.cpp" line="204" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayReduceInRanges.cpp">
+            <location file="Functions\array\arrayReduceInRanges.cpp" line="388" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayResize.cpp">
+            <location file="Functions\array\arrayResize.cpp" line="136" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayReverse.cpp">
+            <location file="Functions\array\arrayReverse.cpp" line="250" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayShiftRotate.cpp">
+            <location file="Functions\array\arrayShiftRotate.cpp" line="262" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayShuffle.cpp">
+            <location file="Functions\array\arrayShuffle.cpp" line="176" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arraySlice.cpp">
+            <location file="Functions\array\arraySlice.cpp" line="154" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arraySort.cpp">
+            <location file="Functions\array\arraySort.cpp" line="84" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arraySplit.cpp">
+            <location file="Functions\array\arraySplit.cpp" line="116" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayUniq.cpp">
+            <location file="Functions\array\arrayUniq.cpp" line="318" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayWithConstant.cpp">
+            <location file="Functions\array\arrayWithConstant.cpp" line="80" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/arrayZip.cpp">
+            <location file="Functions\array\arrayZip.cpp" line="97" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/countEqual.cpp">
+            <location file="Functions\array\countEqual.cpp" line="10" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/emptyArray.cpp">
+            <location file="Functions\array\emptyArray.cpp" line="58" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/emptyArrayToSingle.cpp">
+            <location file="Functions\array\emptyArrayToSingle.cpp" line="419" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/has.cpp">
+            <location file="Functions\array\has.cpp" line="11" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/hasAll.cpp">
+            <location file="Functions\array\hasAll.cpp" line="17" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/hasAny.cpp">
+            <location file="Functions\array\hasAny.cpp" line="17" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/hasSubstr.cpp">
+            <location file="Functions\array\hasSubstr.cpp" line="17" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/indexOf.cpp">
+            <location file="Functions\array\indexOf.cpp" line="12" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/length.cpp">
+            <location file="Functions\array\length.cpp" line="66" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/mapOp.cpp">
+            <location file="Functions\array\mapOp.cpp" line="445" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/mapPopulateSeries.cpp">
+            <location file="Functions\array\mapPopulateSeries.cpp" line="192" column="13"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/array/range.cpp">
+            <location file="Functions\array\range.cpp" line="568" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/arrayStringConcat.cpp">
+            <location file="Functions\arrayStringConcat.cpp" line="197" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/ascii.cpp">
+            <location file="Functions\ascii.cpp" line="82" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/asin.cpp">
+            <location file="Functions\asin.cpp" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/asinh.cpp">
+            <location file="Functions\asinh.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/assumeNotNull.cpp">
+            <location file="Functions\assumeNotNull.cpp" line="66" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/atan.cpp">
+            <location file="Functions\atan.cpp" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/atan2.cpp">
+            <location file="Functions\atan2.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/atanh.cpp">
+            <location file="Functions\atanh.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bar.cpp">
+            <location file="Functions\bar.cpp" line="130" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/base58Decode.cpp">
+            <location file="Functions\base58Decode.cpp" line="19" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitAnd.cpp">
+            <location file="Functions\bitAnd.cpp" line="45" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitBoolMaskAnd.cpp">
+            <location file="Functions\bitBoolMaskAnd.cpp" line="50" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitBoolMaskOr.cpp">
+            <location file="Functions\bitBoolMaskOr.cpp" line="50" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitCount.cpp">
+            <location file="Functions\bitCount.cpp" line="58" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitHammingDistance.cpp">
+            <location file="Functions\bitHammingDistance.cpp" line="56" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitNot.cpp">
+            <location file="Functions\bitNot.cpp" line="53" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitOr.cpp">
+            <location file="Functions\bitOr.cpp" line="44" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitRotateLeft.cpp">
+            <location file="Functions\bitRotateLeft.cpp" line="51" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitRotateRight.cpp">
+            <location file="Functions\bitRotateRight.cpp" line="50" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitShiftLeft.cpp">
+            <location file="Functions\bitShiftLeft.cpp" line="162" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitShiftRight.cpp">
+            <location file="Functions\bitShiftRight.cpp" line="141" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitSlice.cpp">
+            <location file="Functions\bitSlice.cpp" line="418" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitSwapLastTwo.cpp">
+            <location file="Functions\bitSwapLastTwo.cpp" line="64" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitTest.cpp">
+            <location file="Functions\bitTest.cpp" line="42" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitTestAll.cpp">
+            <location file="Functions\bitTestAll.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitTestAny.cpp">
+            <location file="Functions\bitTestAny.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitWrapperFunc.cpp">
+            <location file="Functions\bitWrapperFunc.cpp" line="52" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/bitXor.cpp">
+            <location file="Functions\bitXor.cpp" line="44" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/blockNumber.cpp">
+            <location file="Functions\blockNumber.cpp" line="71" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/blockSerializedSize.cpp">
+            <location file="Functions\blockSerializedSize.cpp" line="70" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/blockSize.cpp">
+            <location file="Functions\blockSize.cpp" line="62" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/byteSize.cpp">
+            <location file="Functions\byteSize.cpp" line="83" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/byteSwap.cpp">
+            <location file="Functions\byteSwap.cpp" line="62" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/canonicalRand.cpp">
+            <location file="Functions\canonicalRand.cpp" line="48" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/caseWithExpression.cpp">
+            <location file="Functions\caseWithExpression.cpp" line="111" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/castOrDefault.cpp">
+            <location file="Functions\castOrDefault.cpp" line="372" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/catboostEvaluate.cpp">
+            <location file="Functions\catboostEvaluate.cpp" line="177" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/cbrt.cpp">
+            <location file="Functions\cbrt.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/coalesce.cpp">
+            <location file="Functions\coalesce.cpp" line="177" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/concat.cpp">
+            <location file="Functions\concat.cpp" line="243" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/concatWithSeparator.cpp">
+            <location file="Functions\concatWithSeparator.cpp" line="155" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/connectionId.cpp">
+            <location file="Functions\connectionId.cpp" line="34" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/convertCharset.cpp">
+            <location file="Functions\convertCharset.cpp" line="217" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/cos.cpp">
+            <location file="Functions\cos.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/cosh.cpp">
+            <location file="Functions\cosh.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/countDigits.cpp">
+            <location file="Functions\countDigits.cpp" line="117" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/countSubstrings.cpp">
+            <location file="Functions\countSubstrings.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/countSubstringsCaseInsensitive.cpp">
+            <location file="Functions\countSubstringsCaseInsensitive.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/countSubstringsCaseInsensitiveUTF8.cpp">
+            <location file="Functions\countSubstringsCaseInsensitiveUTF8.cpp" line="21" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/coverage.cpp">
+            <location file="Functions\coverage.cpp" line="86" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/currentDatabase.cpp">
+            <location file="Functions\currentDatabase.cpp" line="54" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/currentProfiles.cpp">
+            <location file="Functions\currentProfiles.cpp" line="99" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/currentRoles.cpp">
+            <location file="Functions\currentRoles.cpp" line="92" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/currentSchemas.cpp">
+            <location file="Functions\currentSchemas.cpp" line="68" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/currentUser.cpp">
+            <location file="Functions\currentUser.cpp" line="54" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/dateDiff.cpp">
+            <location file="Functions\dateDiff.cpp" line="476" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/dateName.cpp">
+            <location file="Functions\dateName.cpp" line="355" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/date_trunc.cpp">
+            <location file="Functions\date_trunc.cpp" line="152" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/decodeHTMLComponent.cpp">
+            <location file="Functions\decodeHTMLComponent.cpp" line="225" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/decodeXMLComponent.cpp">
+            <location file="Functions\decodeXMLComponent.cpp" line="234" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/defaultValueOfArgumentType.cpp">
+            <location file="Functions\defaultValueOfArgumentType.cpp" line="59" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/defaultValueOfTypeName.cpp">
+            <location file="Functions\defaultValueOfTypeName.cpp" line="66" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/degrees.cpp">
+            <location file="Functions\degrees.cpp" line="24" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/demangle.cpp">
+            <location file="Functions\demangle.cpp" line="99" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/divide.cpp">
+            <location file="Functions\divide.cpp" line="39" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/divideDecimal.cpp">
+            <location file="Functions\divideDecimal.cpp" line="59" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/dumpColumnStructure.cpp">
+            <location file="Functions\dumpColumnStructure.cpp" line="57" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/empty.cpp">
+            <location file="Functions\empty.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/encodeXMLComponent.cpp">
+            <location file="Functions\encodeXMLComponent.cpp" line="140" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/erf.cpp">
+            <location file="Functions\erf.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/erfc.cpp">
+            <location file="Functions\erfc.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/errorCodeToName.cpp">
+            <location file="Functions\errorCodeToName.cpp" line="58" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/evalMLMethod.cpp">
+            <location file="Functions\evalMLMethod.cpp" line="95" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/exp.cpp">
+            <location file="Functions\exp.cpp" line="37" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/exp10.cpp">
+            <location file="Functions\exp10.cpp" line="15" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/exp2.cpp">
+            <location file="Functions\exp2.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/extract.cpp">
+            <location file="Functions\extract.cpp" line="68" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/extractAll.cpp">
+            <location file="Functions\extractAll.cpp" line="117" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/extractGroups.cpp">
+            <location file="Functions\extractGroups.cpp" line="112" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/extractTextFromHTML.cpp">
+            <location file="Functions\extractTextFromHTML.cpp" line="354" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/factorial.cpp">
+            <location file="Functions\factorial.cpp" line="98" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/filesystem.cpp">
+            <location file="Functions\filesystem.cpp" line="115" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/finalizeAggregation.cpp">
+            <location file="Functions\finalizeAggregation.cpp" line="74" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/firstLine.cpp">
+            <location file="Functions\firstLine.cpp" line="30" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/flattenTuple.cpp">
+            <location file="Functions\flattenTuple.cpp" line="63" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/formatDateTime.cpp">
+            <location file="Functions\formatDateTime.cpp" line="1832" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/formatQuery.cpp">
+            <location file="Functions\formatQuery.cpp" line="187" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/formatReadableDecimalSize.cpp">
+            <location file="Functions\formatReadableDecimalSize.cpp" line="21" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/formatReadableQuantity.cpp">
+            <location file="Functions\formatReadableQuantity.cpp" line="21" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/formatReadableSize.cpp">
+            <location file="Functions\formatReadableSize.cpp" line="21" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/formatReadableTimeDelta.cpp">
+            <location file="Functions\formatReadableTimeDelta.cpp" line="351" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/formatRow.cpp">
+            <location file="Functions\formatRow.cpp" line="152" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/formatString.cpp">
+            <location file="Functions\formatString.cpp" line="138" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/fromDaysSinceYearZero.cpp">
+            <location file="Functions\fromDaysSinceYearZero.cpp" line="110" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/fromModifiedJulianDay.cpp">
+            <location file="Functions\fromModifiedJulianDay.cpp" line="222" column="5"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/fuzzBits.cpp">
+            <location file="Functions\fuzzBits.cpp" line="185" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/gcd.cpp">
+            <location file="Functions\gcd.cpp" line="32" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/generateULID.cpp">
+            <location file="Functions\generateULID.cpp" line="75" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/generateUUIDv4.cpp">
+            <location file="Functions\generateUUIDv4.cpp" line="102" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/geoToH3.cpp">
+            <location file="Functions\geoToH3.cpp" line="144" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/geoToS2.cpp">
+            <location file="Functions\geoToS2.cpp" line="129" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/geohashDecode.cpp">
+            <location file="Functions\geohashDecode.cpp" line="95" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/geohashEncode.cpp">
+            <location file="Functions\geohashEncode.cpp" line="114" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/geohashesInBox.cpp">
+            <location file="Functions\geohashesInBox.cpp" line="177" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/getMacro.cpp">
+            <location file="Functions\getMacro.cpp" line="82" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/getScalar.cpp">
+            <location file="Functions\getScalar.cpp" line="151" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/getServerPort.cpp">
+            <location file="Functions\getServerPort.cpp" line="129" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/getSetting.cpp">
+            <location file="Functions\getSetting.cpp" line="68" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/getSizeOfEnumType.cpp">
+            <location file="Functions\getSizeOfEnumType.cpp" line="79" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/getSubcolumn.cpp">
+            <location file="Functions\getSubcolumn.cpp" line="54" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/getTypeSerializationStreams.cpp">
+            <location file="Functions\getTypeSerializationStreams.cpp" line="74" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/globalVariable.cpp">
+            <location file="Functions\globalVariable.cpp" line="91" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_MULTITARGET_CODE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_MULTITARGET_CODE is a macro then please configure it." file0="Functions/greatCircleDistance.cpp">
+            <location file="Functions\greatCircleDistance.cpp" line="169" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/greatest.cpp">
+            <location file="Functions\greatest.cpp" line="66" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3CellAreaM2.cpp">
+            <location file="Functions\h3CellAreaM2.cpp" line="94" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3CellAreaRads2.cpp">
+            <location file="Functions\h3CellAreaRads2.cpp" line="93" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3Distance.cpp">
+            <location file="Functions\h3Distance.cpp" line="110" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3EdgeAngle.cpp">
+            <location file="Functions\h3EdgeAngle.cpp" line="97" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3EdgeLengthKm.cpp">
+            <location file="Functions\h3EdgeLengthKm.cpp" line="95" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3EdgeLengthM.cpp">
+            <location file="Functions\h3EdgeLengthM.cpp" line="100" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3ExactEdgeLengthKm.cpp">
+            <location file="Functions\h3ExactEdgeLengthKm.cpp" line="87" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3ExactEdgeLengthM.cpp">
+            <location file="Functions\h3ExactEdgeLengthM.cpp" line="87" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3ExactEdgeLengthRads.cpp">
+            <location file="Functions\h3ExactEdgeLengthRads.cpp" line="87" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetBaseCell.cpp">
+            <location file="Functions\h3GetBaseCell.cpp" line="87" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetDestinationIndexFromUnidirectionalEdge.cpp">
+            <location file="Functions\h3GetDestinationIndexFromUnidirectionalEdge.cpp" line="88" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetFaces.cpp">
+            <location file="Functions\h3GetFaces.cpp" line="109" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetIndexesFromUnidirectionalEdge.cpp">
+            <location file="Functions\h3GetIndexesFromUnidirectionalEdge.cpp" line="103" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetOriginIndexFromUnidirectionalEdge.cpp">
+            <location file="Functions\h3GetOriginIndexFromUnidirectionalEdge.cpp" line="88" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetPentagonIndexes.cpp">
+            <location file="Functions\h3GetPentagonIndexes.cpp" line="111" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetRes0Indexes.cpp">
+            <location file="Functions\h3GetRes0Indexes.cpp" line="62" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetResolution.cpp">
+            <location file="Functions\h3GetResolution.cpp" line="87" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetUnidirectionalEdge.cpp">
+            <location file="Functions\h3GetUnidirectionalEdge.cpp" line="120" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetUnidirectionalEdgeBoundary.cpp">
+            <location file="Functions\h3GetUnidirectionalEdgeBoundary.cpp" line="104" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3GetUnidirectionalEdgesFromHexagon.cpp">
+            <location file="Functions\h3GetUnidirectionalEdgesFromHexagon.cpp" line="105" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3HexAreaKm2.cpp">
+            <location file="Functions\h3HexAreaKm2.cpp" line="96" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3HexAreaM2.cpp">
+            <location file="Functions\h3HexAreaM2.cpp" line="97" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3HexRing.cpp">
+            <location file="Functions\h3HexRing.cpp" line="146" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3IndexesAreNeighbors.cpp">
+            <location file="Functions\h3IndexesAreNeighbors.cpp" line="106" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3IsPentagon.cpp">
+            <location file="Functions\h3IsPentagon.cpp" line="83" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3IsResClassIII.cpp">
+            <location file="Functions\h3IsResClassIII.cpp" line="83" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3IsValid.cpp">
+            <location file="Functions\h3IsValid.cpp" line="86" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3Line.cpp">
+            <location file="Functions\h3Line.cpp" line="136" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3NumHexagons.cpp">
+            <location file="Functions\h3NumHexagons.cpp" line="92" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3PointDist.cpp">
+            <location file="Functions\h3PointDist.cpp" line="147" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3ToCenterChild.cpp">
+            <location file="Functions\h3ToCenterChild.cpp" line="112" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3ToChildren.cpp">
+            <location file="Functions\h3ToChildren.cpp" line="142" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3ToGeoBoundary.cpp">
+            <location file="Functions\h3ToGeoBoundary.cpp" line="101" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3ToParent.cpp">
+            <location file="Functions\h3ToParent.cpp" line="117" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3ToString.cpp">
+            <location file="Functions\h3ToString.cpp" line="104" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3UnidirectionalEdgeIsValid.cpp">
+            <location file="Functions\h3UnidirectionalEdgeIsValid.cpp" line="90" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3kRing.cpp">
+            <location file="Functions\h3kRing.cpp" line="140" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/h3toGeo.cpp">
+            <location file="Functions\h3toGeo.cpp" line="103" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/hasColumnInTable.cpp">
+            <location file="Functions\hasColumnInTable.cpp" line="161" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/hasSubsequence.cpp">
+            <location file="Functions\hasSubsequence.cpp" line="25" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/hasSubsequenceCaseInsensitive.cpp">
+            <location file="Functions\hasSubsequenceCaseInsensitive.cpp" line="24" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/hasSubsequenceCaseInsensitiveUTF8.cpp">
+            <location file="Functions\hasSubsequenceCaseInsensitiveUTF8.cpp" line="26" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/hasSubsequenceUTF8.cpp">
+            <location file="Functions\hasSubsequenceUTF8.cpp" line="25" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/hasThreadFuzzer.cpp">
+            <location file="Functions\hasThreadFuzzer.cpp" line="49" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/hasToken.cpp">
+            <location file="Functions\hasToken.cpp" line="25" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/hasTokenCaseInsensitive.cpp">
+            <location file="Functions\hasTokenCaseInsensitive.cpp" line="25" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/hypot.cpp">
+            <location file="Functions\hypot.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/if.cpp">
+            <location file="Functions\if.cpp" line="1160" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/ifNotFinite.cpp">
+            <location file="Functions\ifNotFinite.cpp" line="67" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/ifNull.cpp">
+            <location file="Functions\ifNull.cpp" line="92" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/ignore.cpp">
+            <location file="Functions\ignore.cpp" line="59" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/ilike.cpp">
+            <location file="Functions\ilike.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/in.cpp">
+            <location file="Functions\in.cpp" line="177" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/initcap.cpp">
+            <location file="Functions\initcap.cpp" line="61" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/initcapUTF8.cpp">
+            <location file="Functions\initcapUTF8.cpp" line="109" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/initialQueryID.cpp">
+            <location file="Functions\initialQueryID.cpp" line="41" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/initializeAggregation.cpp">
+            <location file="Functions\initializeAggregation.cpp" line="164" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/intDiv.cpp">
+            <location file="Functions\intDiv.cpp" line="124" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/intDivOrZero.cpp">
+            <location file="Functions\intDivOrZero.cpp" line="32" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/intExp10.cpp">
+            <location file="Functions\intExp10.cpp" line="61" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/intExp2.cpp">
+            <location file="Functions\intExp2.cpp" line="64" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isConstant.cpp">
+            <location file="Functions\isConstant.cpp" line="55" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isDecimalOverflow.cpp">
+            <location file="Functions\isDecimalOverflow.cpp" line="149" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isFinite.cpp">
+            <location file="Functions\isFinite.cpp" line="41" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isIPAddressContainedIn.cpp">
+            <location file="Functions\isIPAddressContainedIn.cpp" line="249" column="5"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isInfinite.cpp">
+            <location file="Functions\isInfinite.cpp" line="37" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isNaN.cpp">
+            <location file="Functions\isNaN.cpp" line="24" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isNotNull.cpp">
+            <location file="Functions\isNotNull.cpp" line="82" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isNull.cpp">
+            <location file="Functions\isNull.cpp" line="75" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isNullable.cpp">
+            <location file="Functions\isNullable.cpp" line="57" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isValidUTF8.cpp">
+            <location file="Functions\isValidUTF8.cpp" line="269" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/isZeroOrNull.cpp">
+            <location file="Functions\isZeroOrNull.cpp" line="128" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/jsonMergePatch.cpp">
+            <location file="Functions\jsonMergePatch.cpp" line="165" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/jumpConsistentHash.cpp">
+            <location file="Functions\jumpConsistentHash.cpp" line="42" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/keyvaluepair/extractKeyValuePairs.cpp">
+            <location file="Functions\keyvaluepair\extractKeyValuePairs.cpp" line="147" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/keyvaluepair/tests/gtest_escaping_key_value_pair_extractor.cpp">
+            <location file="Functions\keyvaluepair\tests\gtest_escaping_key_value_pair_extractor.cpp" line="18" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/kostikConsistentHash.cpp">
+            <location file="Functions\kostikConsistentHash.cpp" line="28" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/lcm.cpp">
+            <location file="Functions\lcm.cpp" line="64" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/least.cpp">
+            <location file="Functions\least.cpp" line="66" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/lemmatize.cpp">
+            <location file="Functions\lemmatize.cpp" line="125" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/lengthUTF8.cpp">
+            <location file="Functions\lengthUTF8.cpp" line="81" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/lgamma.cpp">
+            <location file="Functions\lgamma.cpp" line="28" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/log.cpp">
+            <location file="Functions\log.cpp" line="35" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/log10.cpp">
+            <location file="Functions\log10.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/log1p.cpp">
+            <location file="Functions\log1p.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/log2.cpp">
+            <location file="Functions\log2.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/logTrace.cpp">
+            <location file="Functions\logTrace.cpp" line="58" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/lowCardinalityIndices.cpp">
+            <location file="Functions\lowCardinalityIndices.cpp" line="61" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/lowCardinalityKeys.cpp">
+            <location file="Functions\lowCardinalityKeys.cpp" line="54" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/lower.cpp">
+            <location file="Functions\lower.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/lowerUTF8.cpp">
+            <location file="Functions\lowerUTF8.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/makeDate.cpp">
+            <location file="Functions\makeDate.cpp" line="724" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/map.cpp">
+            <location file="Functions\map.cpp" line="371" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/match.cpp">
+            <location file="Functions\match.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/mathConstants.cpp">
+            <location file="Functions\mathConstants.cpp" line="37" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/max2.cpp">
+            <location file="Functions\max2.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/min2.cpp">
+            <location file="Functions\min2.cpp" line="23" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/minSampleSize.cpp">
+            <location file="Functions\minSampleSize.cpp" line="285" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/minus.cpp">
+            <location file="Functions\minus.cpp" line="49" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/modulo.cpp">
+            <location file="Functions\modulo.cpp" line="155" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/moduloOrZero.cpp">
+            <location file="Functions\moduloOrZero.cpp" line="44" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/monthName.cpp">
+            <location file="Functions\monthName.cpp" line="75" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/mortonDecode.cpp">
+            <location file="Functions\mortonDecode.cpp" line="385" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/mortonEncode.cpp">
+            <location file="Functions\mortonEncode.cpp" line="336" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiFuzzyMatchAllIndices.cpp">
+            <location file="Functions\multiFuzzyMatchAllIndices.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiFuzzyMatchAny.cpp">
+            <location file="Functions\multiFuzzyMatchAny.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiFuzzyMatchAnyIndex.cpp">
+            <location file="Functions\multiFuzzyMatchAnyIndex.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiIf.cpp">
+            <location file="Functions\multiIf.cpp" line="465" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiMatchAllIndices.cpp">
+            <location file="Functions\multiMatchAllIndices.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiMatchAny.cpp">
+            <location file="Functions\multiMatchAny.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiMatchAnyIndex.cpp">
+            <location file="Functions\multiMatchAnyIndex.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchAllPositions.cpp">
+            <location file="Functions\multiSearchAllPositions.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchAllPositionsCaseInsensitive.cpp">
+            <location file="Functions\multiSearchAllPositionsCaseInsensitive.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchAllPositionsCaseInsensitiveUTF8.cpp">
+            <location file="Functions\multiSearchAllPositionsCaseInsensitiveUTF8.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchAllPositionsUTF8.cpp">
+            <location file="Functions\multiSearchAllPositionsUTF8.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchAny.cpp">
+            <location file="Functions\multiSearchAny.cpp" line="21" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchAnyCaseInsensitive.cpp">
+            <location file="Functions\multiSearchAnyCaseInsensitive.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchAnyCaseInsensitiveUTF8.cpp">
+            <location file="Functions\multiSearchAnyCaseInsensitiveUTF8.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchAnyUTF8.cpp">
+            <location file="Functions\multiSearchAnyUTF8.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchFirstIndex.cpp">
+            <location file="Functions\multiSearchFirstIndex.cpp" line="21" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchFirstIndexCaseInsensitive.cpp">
+            <location file="Functions\multiSearchFirstIndexCaseInsensitive.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchFirstIndexCaseInsensitiveUTF8.cpp">
+            <location file="Functions\multiSearchFirstIndexCaseInsensitiveUTF8.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchFirstIndexUTF8.cpp">
+            <location file="Functions\multiSearchFirstIndexUTF8.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchFirstPosition.cpp">
+            <location file="Functions\multiSearchFirstPosition.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchFirstPositionCaseInsensitive.cpp">
+            <location file="Functions\multiSearchFirstPositionCaseInsensitive.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchFirstPositionCaseInsensitiveUTF8.cpp">
+            <location file="Functions\multiSearchFirstPositionCaseInsensitiveUTF8.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiSearchFirstPositionUTF8.cpp">
+            <location file="Functions\multiSearchFirstPositionUTF8.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiply.cpp">
+            <location file="Functions\multiply.cpp" line="56" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/multiplyDecimal.cpp">
+            <location file="Functions\multiplyDecimal.cpp" line="59" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/negate.cpp">
+            <location file="Functions\negate.cpp" line="41" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/neighbor.cpp">
+            <location file="Functions\neighbor.cpp" line="203" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/nested.cpp">
+            <location file="Functions\nested.cpp" line="166" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/normalizeQuery.cpp">
+            <location file="Functions\normalizeQuery.cpp" line="54" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/normalizeString.cpp">
+            <location file="Functions\normalizeString.cpp" line="172" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/normalizedQueryHash.cpp">
+            <location file="Functions\normalizedQueryHash.cpp" line="100" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/notEmpty.cpp">
+            <location file="Functions\notEmpty.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/notILike.cpp">
+            <location file="Functions\notILike.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/notLike.cpp">
+            <location file="Functions\notLike.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/now.cpp">
+            <location file="Functions\now.cpp" line="138" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/now64.cpp">
+            <location file="Functions\now64.cpp" line="170" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/nowInBlock.cpp">
+            <location file="Functions\nowInBlock.cpp" line="90" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/nullIf.cpp">
+            <location file="Functions\nullIf.cpp" line="70" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/padString.cpp">
+            <location file="Functions\padString.cpp" line="314" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/parseDateTime.cpp">
+            <location file="Functions\parseDateTime.cpp" line="1942" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/parseTimeDelta.cpp">
+            <location file="Functions\parseTimeDelta.cpp" line="307" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/partitionId.cpp">
+            <location file="Functions\partitionId.cpp" line="66" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/plus.cpp">
+            <location file="Functions\plus.cpp" line="51" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/pointInEllipses.cpp">
+            <location file="Functions\pointInEllipses.cpp" line="195" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/pointInPolygon.cpp">
+            <location file="Functions\pointInPolygon.cpp" line="576" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/polygonArea.cpp">
+            <location file="Functions\polygonArea.cpp" line="107" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/polygonConvexHull.cpp">
+            <location file="Functions\polygonConvexHull.cpp" line="105" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/polygonPerimeter.cpp">
+            <location file="Functions\polygonPerimeter.cpp" line="106" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/polygonsDistance.cpp">
+            <location file="Functions\polygonsDistance.cpp" line="116" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/polygonsEquals.cpp">
+            <location file="Functions\polygonsEquals.cpp" line="116" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/polygonsIntersection.cpp">
+            <location file="Functions\polygonsIntersection.cpp" line="121" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/polygonsSymDifference.cpp">
+            <location file="Functions\polygonsSymDifference.cpp" line="116" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/polygonsUnion.cpp">
+            <location file="Functions\polygonsUnion.cpp" line="114" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/polygonsWithin.cpp">
+            <location file="Functions\polygonsWithin.cpp" line="118" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/position.cpp">
+            <location file="Functions\position.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/positionCaseInsensitive.cpp">
+            <location file="Functions\positionCaseInsensitive.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/positionCaseInsensitiveUTF8.cpp">
+            <location file="Functions\positionCaseInsensitiveUTF8.cpp" line="21" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/positionUTF8.cpp">
+            <location file="Functions\positionUTF8.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/pow.cpp">
+            <location file="Functions\pow.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/queryID.cpp">
+            <location file="Functions\queryID.cpp" line="41" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/radians.cpp">
+            <location file="Functions\radians.cpp" line="24" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/rand.cpp">
+            <location file="Functions\rand.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/rand64.cpp">
+            <location file="Functions\rand64.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/randConstant.cpp">
+            <location file="Functions\randConstant.cpp" line="122" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/randDistribution.cpp">
+            <location file="Functions\randDistribution.cpp" line="310" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/randomFixedString.cpp">
+            <location file="Functions\randomFixedString.cpp" line="109" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/randomPrintableASCII.cpp">
+            <location file="Functions\randomPrintableASCII.cpp" line="116" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/randomString.cpp">
+            <location file="Functions\randomString.cpp" line="127" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/randomStringUTF8.cpp">
+            <location file="Functions\randomStringUTF8.cpp" line="149" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/readWkt.cpp">
+            <location file="Functions\readWkt.cpp" line="102" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/regexpExtract.cpp">
+            <location file="Functions\regexpExtract.cpp" line="244" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/regexpQuoteMeta.cpp">
+            <location file="Functions\regexpQuoteMeta.cpp" line="113" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/reinterpretAs.cpp">
+            <location file="Functions\reinterpretAs.cpp" line="502" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/repeat.cpp">
+            <location file="Functions\repeat.cpp" line="263" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/replaceAll.cpp">
+            <location file="Functions\replaceAll.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/replaceOne.cpp">
+            <location file="Functions\replaceOne.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/replaceRegexpAll.cpp">
+            <location file="Functions\replaceRegexpAll.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/replaceRegexpOne.cpp">
+            <location file="Functions\replaceRegexpOne.cpp" line="20" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/replicate.cpp">
+            <location file="Functions\replicate.cpp" line="62" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/reverse.cpp">
+            <location file="Functions\reverse.cpp" line="150" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/reverseDNSQuery.cpp">
+            <location file="Functions\reverseDNSQuery.cpp" line="99" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/reverseUTF8.cpp">
+            <location file="Functions\reverseUTF8.cpp" line="79" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/roundAge.cpp">
+            <location file="Functions\roundAge.cpp" line="38" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/roundDuration.cpp">
+            <location file="Functions\roundDuration.cpp" line="47" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/roundToExp2.cpp">
+            <location file="Functions\roundToExp2.cpp" line="85" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/rowNumberInAllBlocks.cpp">
+            <location file="Functions\rowNumberInAllBlocks.cpp" line="80" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/rowNumberInBlock.cpp">
+            <location file="Functions\rowNumberInBlock.cpp" line="68" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/runningAccumulate.cpp">
+            <location file="Functions\runningAccumulate.cpp" line="143" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/runningConcurrency.cpp">
+            <location file="Functions\runningConcurrency.cpp" line="217" column="5"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/s2CapContains.cpp">
+            <location file="Functions\s2CapContains.cpp" line="157" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/s2CapUnion.cpp">
+            <location file="Functions\s2CapUnion.cpp" line="172" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/s2CellsIntersect.cpp">
+            <location file="Functions\s2CellsIntersect.cpp" line="118" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/s2GetNeighbors.cpp">
+            <location file="Functions\s2GetNeighbors.cpp" line="118" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/s2RectAdd.cpp">
+            <location file="Functions\s2RectAdd.cpp" line="143" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/s2RectContains.cpp">
+            <location file="Functions\s2RectContains.cpp" line="133" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/s2RectIntersection.cpp">
+            <location file="Functions\s2RectIntersection.cpp" line="153" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/s2RectUnion.cpp">
+            <location file="Functions\s2RectUnion.cpp" line="151" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/s2ToGeo.cpp">
+            <location file="Functions\s2ToGeo.cpp" line="116" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/serverConstants.cpp">
+            <location file="Functions\serverConstants.cpp" line="145" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/sigmoid.cpp">
+            <location file="Functions\sigmoid.cpp" line="44" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/sign.cpp">
+            <location file="Functions\sign.cpp" line="45" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/sin.cpp">
+            <location file="Functions\sin.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/sinh.cpp">
+            <location file="Functions\sinh.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/snowflake.cpp">
+            <location file="Functions\snowflake.cpp" line="249" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/soundex.cpp">
+            <location file="Functions\soundex.cpp" line="112" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/space.cpp">
+            <location file="Functions\space.cpp" line="174" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/splitByChar.cpp">
+            <location file="Functions\splitByChar.cpp" line="117" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/splitByNonAlpha.cpp">
+            <location file="Functions\splitByNonAlpha.cpp" line="108" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/splitByRegexp.cpp">
+            <location file="Functions\splitByRegexp.cpp" line="151" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/splitByString.cpp">
+            <location file="Functions\splitByString.cpp" line="143" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/splitByWhitespace.cpp">
+            <location file="Functions\splitByWhitespace.cpp" line="96" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/sqrt.cpp">
+            <location file="Functions\sqrt.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/stem.cpp">
+            <location file="Functions\stem.cpp" line="128" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/stringCutToZero.cpp">
+            <location file="Functions\stringCutToZero.cpp" line="150" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/stringToH3.cpp">
+            <location file="Functions\stringToH3.cpp" line="102" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/structureToFormatSchema.cpp">
+            <location file="Functions\structureToFormatSchema.cpp" line="104" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/substring.cpp">
+            <location file="Functions\substring.cpp" line="183" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/substringIndex.cpp">
+            <location file="Functions\substringIndex.cpp" line="293" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/svg.cpp">
+            <location file="Functions\svg.cpp" line="102" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/synonyms.cpp">
+            <location file="Functions\synonyms.cpp" line="121" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tan.cpp">
+            <location file="Functions\tan.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tanh.cpp">
+            <location file="Functions\tanh.cpp" line="40" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tgamma.cpp">
+            <location file="Functions\tgamma.cpp" line="14" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/throwIf.cpp">
+            <location file="Functions\throwIf.cpp" line="159" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tid.cpp">
+            <location file="Functions\tid.cpp" line="35" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/timeSlots.cpp">
+            <location file="Functions\timeSlots.cpp" line="390" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/timestamp.cpp">
+            <location file="Functions\timestamp.cpp" line="172" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/timezoneOf.cpp">
+            <location file="Functions\timezoneOf.cpp" line="69" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toBool.cpp">
+            <location file="Functions\toBool.cpp" line="64" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toColumnTypeName.cpp">
+            <location file="Functions\toColumnTypeName.cpp" line="58" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toDecimalString.cpp">
+            <location file="Functions\toDecimalString.cpp" line="265" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toJSONString.cpp">
+            <location file="Functions\toJSONString.cpp" line="58" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toLowCardinality.cpp">
+            <location file="Functions\toLowCardinality.cpp" line="53" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toModifiedJulianDay.cpp">
+            <location file="Functions\toModifiedJulianDay.cpp" line="219" column="5"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toNullable.cpp">
+            <location file="Functions\toNullable.cpp" line="48" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toStartOfInterval.cpp">
+            <location file="Functions\toStartOfInterval.cpp" line="261" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toStartOfSubsecond.cpp">
+            <location file="Functions\toStartOfSubsecond.cpp" line="18" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toTimezone.cpp">
+            <location file="Functions\toTimezone.cpp" line="133" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toTypeName.cpp">
+            <location file="Functions\toTypeName.cpp" line="72" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/toValidUTF8.cpp">
+            <location file="Functions\toValidUTF8.cpp" line="166" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/today.cpp">
+            <location file="Functions\today.cpp" line="86" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tokenExtractors.cpp">
+            <location file="Functions\tokenExtractors.cpp" line="150" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/transform.cpp">
+            <location file="Functions\transform.cpp" line="826" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/translate.cpp">
+            <location file="Functions\translate.cpp" line="356" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/trim.cpp">
+            <location file="Functions\trim.cpp" line="110" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tryBase58Decode.cpp">
+            <location file="Functions\tryBase58Decode.cpp" line="19" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tupleConcat.cpp">
+            <location file="Functions\tupleConcat.cpp" line="97" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tupleElement.cpp">
+            <location file="Functions\tupleElement.cpp" line="169" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tupleHammingDistance.cpp">
+            <location file="Functions\tupleHammingDistance.cpp" line="141" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/tupleToNameValuePairs.cpp">
+            <location file="Functions\tupleToNameValuePairs.cpp" line="132" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/upper.cpp">
+            <location file="Functions\upper.cpp" line="19" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/upperUTF8.cpp">
+            <location file="Functions\upperUTF8.cpp" line="21" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/validateNestedArraySizes.cpp">
+            <location file="Functions\validateNestedArraySizes.cpp" line="120" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/vectorFunctions.cpp">
+            <location file="Functions\vectorFunctions.cpp" line="1573" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/visibleWidth.cpp">
+            <location file="Functions\visibleWidth.cpp" line="79" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/visitParamExtractBool.cpp">
+            <location file="Functions\visitParamExtractBool.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/visitParamExtractFloat.cpp">
+            <location file="Functions\visitParamExtractFloat.cpp" line="12" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/visitParamExtractInt.cpp">
+            <location file="Functions\visitParamExtractInt.cpp" line="12" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/visitParamExtractRaw.cpp">
+            <location file="Functions\visitParamExtractRaw.cpp" line="62" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/visitParamExtractString.cpp">
+            <location file="Functions\visitParamExtractString.cpp" line="23" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/visitParamExtractUInt.cpp">
+            <location file="Functions\visitParamExtractUInt.cpp" line="13" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/visitParamHas.cpp">
+            <location file="Functions\visitParamHas.cpp" line="22" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/widthBucket.cpp">
+            <location file="Functions\widthBucket.cpp" line="253" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/wkt.cpp">
+            <location file="Functions\wkt.cpp" line="77" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/yesterday.cpp">
+            <location file="Functions\yesterday.cpp" line="83" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Functions/ztest.cpp">
+            <location file="Functions\ztest.cpp" line="220" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If ; is a macro then please configure it." file0="IO/Archives/LibArchiveReader.cpp">
+            <location file="IO\Archives\LibArchiveReader.cpp" line="91" column="27"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If AWS_LOGSTREAM_ERROR is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If AWS_LOGSTREAM_ERROR is a macro then please configure it." file0="IO/S3/Client.cpp">
+            <location file="IO\S3\Client.cpp" line="490" column="13"/>
+        </error>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369" file0="IO/WriteBufferFromS3BufferAllocationPolicy.cpp">
+            <location file="IO\WriteBufferFromS3BufferAllocationPolicy.cpp" line="87" column="39" info="Division by zero"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="IO/tests/gtest_s3_uri.cpp">
+            <location file="IO\tests\gtest_s3_uri.cpp" line="83" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If APPLY_FOR_VARIANTS_TWO_LEVEL is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If APPLY_FOR_VARIANTS_TWO_LEVEL is a macro then please configure it." file0="Interpreters/Aggregator.cpp">
+            <location file="Interpreters\Aggregator.cpp" line="1792" column="5"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Interpreters/ExternalLoader.cpp">
+            <location file="Interpreters\ExternalLoader.cpp" line="966" column="9"/>
+        </error>
+        <error id="containerOutOfBounds" severity="error" msg="Out of bounds access in expression &apos;loaded.back()&apos; because &apos;loaded&apos; is empty." verbose="Out of bounds access in expression &apos;loaded.back()&apos; because &apos;loaded&apos; is empty." cwe="398" file0="Interpreters/TransactionLog.cpp">
+            <location file="Interpreters\TransactionLog.cpp" line="157" column="38" info="Access out of bounds"/>
+            <location file="Interpreters\TransactionLog.cpp" line="134" column="26" info="Assuming condition is false"/>
+            <symbol>loaded</symbol>
+        </error>
+        <error id="rethrowNoCurrentException" severity="error" msg="Rethrowing current exception with &apos;throw;&apos;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" verbose="Rethrowing current exception with &apos;throw;&apos;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" cwe="480" file0="Interpreters/executeQuery.cpp">
+            <location file="Interpreters\executeQuery.cpp" line="174" column="9"/>
+        </error>
+        <error id="internalAstError" severity="error" msg="Syntax Error: AST broken, binary operator &apos;==&apos; doesn&apos;t have two operands." verbose="Syntax Error: AST broken, binary operator &apos;==&apos; doesn&apos;t have two operands." file0="Parsers/ExpressionElementParsers.cpp">
+            <location file="Parsers\ExpressionElementParsers.cpp" line="743" column="20"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="Parsers/SelectUnionMode.cpp">
+            <location file="Parsers\SelectUnionMode.cpp" line="10" column="5"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Processors/Executors/CompletedPipelineExecutor.cpp">
+            <location file="Processors\Executors\CompletedPipelineExecutor.cpp" line="38" column="5"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Processors/Executors/PipelineExecutor.cpp">
+            <location file="Processors\Executors\PipelineExecutor.cpp" line="362" column="13"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Processors/Executors/PullingAsyncPipelineExecutor.cpp">
+            <location file="Processors\Executors\PullingAsyncPipelineExecutor.cpp" line="73" column="5"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Processors/Executors/PushingAsyncPipelineExecutor.cpp">
+            <location file="Processors\Executors\PushingAsyncPipelineExecutor.cpp" line="104" column="5"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;sign&lt;&lt;31&apos;." verbose="Signed integer overflow for expression &apos;sign&lt;&lt;31&apos;." cwe="190" file0="Processors/Formats/Impl/NpyRowInputFormat.cpp">
+            <location file="Processors\Formats\Impl\NpyRowInputFormat.cpp" line="41" column="39" info="Integer overflow"/>
+            <location file="Processors\Formats\Impl\NpyRowInputFormat.cpp" line="35" column="43" info="Assignment &apos;sign=(float16_value&gt;&gt;15)&amp;0x1&apos;, assigned value is 1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Processors/Formats/Impl/ParallelFormattingOutputFormat.cpp">
+            <location file="Processors\Formats\Impl\ParallelFormattingOutputFormat.cpp" line="128" column="9"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Processors/Formats/Impl/ParallelParsingInputFormat.cpp">
+            <location file="Processors\Formats\Impl\ParallelParsingInputFormat.cpp" line="13" column="5"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Processors/Formats/Impl/ParquetBlockInputFormat.cpp">
+            <location file="Processors\Formats\Impl\ParquetBlockInputFormat.cpp" line="515" column="13"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Processors/Formats/Impl/ParquetBlockOutputFormat.cpp">
+            <location file="Processors\Formats\Impl\ParquetBlockOutputFormat.cpp" line="461" column="13"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: group_by_key_it" verbose="Uninitialized variable: group_by_key_it" cwe="457" file0="Processors/QueryPlan/Optimizations/optimizeReadInOrder.cpp">
+            <location file="Processors\QueryPlan\Optimizations\optimizeReadInOrder.cpp" line="618" column="41"/>
+            <location file="Processors\QueryPlan\Optimizations\optimizeReadInOrder.cpp" line="615" column="23" info="Assuming condition is false"/>
+            <symbol>group_by_key_it</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Processors/Transforms/AggregatingTransform.cpp">
+            <location file="Processors\Transforms\AggregatingTransform.cpp" line="482" column="42"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: session" verbose="Null pointer dereference: session" cwe="476" file0="Server/MySQLHandler.cpp">
+            <location file="Server\MySQLHandler.cpp" line="99" column="5" info="Null pointer dereference"/>
+            <symbol>session</symbol>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT is a macro then please configure it." file0="Server/MySQLHandlerFactory.cpp">
+            <location file="Server\MySQLHandlerFactory.cpp" line="70" column="9"/>
+        </error>
+        <error id="nullPointer" severity="error" msg="Null pointer dereference: session" verbose="Null pointer dereference: session" cwe="476" file0="Server/PostgreSQLHandler.cpp">
+            <location file="Server\PostgreSQLHandler.cpp" line="61" column="5" info="Null pointer dereference"/>
+            <symbol>session</symbol>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/Distributed/DistributedSettings.cpp">
+            <location file="Storages\Distributed\DistributedSettings.cpp" line="16" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Storages/Distributed/DistributedSink.cpp">
+            <location file="Storages\Distributed\DistributedSink.cpp" line="304" column="9"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/ExecutableSettings.cpp">
+            <location file="Storages\ExecutableSettings.cpp" line="17" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/ExternalDataSourceConfiguration.cpp">
+            <location file="Storages\ExternalDataSourceConfiguration.cpp" line="20" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/FileLog/FileLogSettings.cpp">
+            <location file="Storages\FileLog\FileLogSettings.cpp" line="16" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/Hive/HiveSettings.cpp">
+            <location file="Storages\Hive\HiveSettings.cpp" line="17" column="1"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal Error. MathLib::toLongNumber: input was not completely consumed: 100ms" verbose="Internal Error. MathLib::toLongNumber: input was not completely consumed: 100ms" file0="Storages/Kafka/KafkaConsumer.cpp">
+            <location file="Storages\Kafka\KafkaConsumer.cpp" line="0" column="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/Kafka/KafkaSettings.cpp">
+            <location file="Storages\Kafka\KafkaSettings.cpp" line="16" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/MemorySettings.cpp">
+            <location file="Storages\MemorySettings.cpp" line="16" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT_SAFE is a macro then please configure it." file0="Storages/MergeTree/MergeTreeDataSelectExecutor.cpp">
+            <location file="Storages\MergeTree\MergeTreeDataSelectExecutor.cpp" line="1073" column="21"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If SCOPE_EXIT is a macro then please configure it." file0="Storages/MergeTree/MergeTreeRangeReader.cpp">
+            <location file="Storages\MergeTree\MergeTreeRangeReader.cpp" line="526" column="5"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/MergeTree/MergeTreeSettings.cpp">
+            <location file="Storages\MergeTree\MergeTreeSettings.cpp" line="24" column="1"/>
+        </error>
+        <error id="rethrowNoCurrentException" severity="error" msg="Rethrowing current exception with &apos;throw;&apos;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" verbose="Rethrowing current exception with &apos;throw;&apos;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" cwe="480" file0="Storages/MergeTree/checkDataPart.cpp">
+            <location file="Storages\MergeTree\checkDataPart.cpp" line="332" column="13"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Storages/MergeTree/tests/gtest_async_inserts.cpp">
+            <location file="Storages\MergeTree\tests\gtest_async_inserts.cpp" line="17" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/MySQL/MySQLSettings.cpp">
+            <location file="Storages\MySQL\MySQLSettings.cpp" line="19" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/NATS/NATSSettings.cpp">
+            <location file="Storages\NATS\NATSSettings.cpp" line="15" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/PostgreSQL/MaterializedPostgreSQLSettings.cpp">
+            <location file="Storages\PostgreSQL\MaterializedPostgreSQLSettings.cpp" line="18" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/RabbitMQ/RabbitMQSettings.cpp">
+            <location file="Storages\RabbitMQ\RabbitMQSettings.cpp" line="15" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/S3Queue/S3QueueSettings.cpp">
+            <location file="Storages\S3Queue\S3QueueSettings.cpp" line="16" column="1"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_SETTINGS_TRAITS is a macro then please configure it." file0="Storages/SetSettings.cpp">
+            <location file="Storages\SetSettings.cpp" line="16" column="1"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="Storages/StorageKeeperMap.cpp">
+            <location file="Storages\StorageKeeperMap.cpp" line="509" column="34"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If APPLY_FOR_ACCESS_TYPES is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If APPLY_FOR_ACCESS_TYPES is a macro then please configure it." file0="Storages/System/StorageSystemPrivileges.cpp">
+            <location file="Storages\System\StorageSystemPrivileges.cpp" line="58" column="9"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &apos;AuxiliaryRandomData&apos;" verbose="The one definition rule is violated, different classes/structs have the same name &apos;AuxiliaryRandomData&apos;" cwe="758">
+            <location file="Compression\fuzzers\delta_decompress_fuzzer.cpp" line="11" column="1"/>
+            <location file="Compression\fuzzers\double_delta_decompress_fuzzer.cpp" line="11" column="1"/>
+            <symbol>AuxiliaryRandomData</symbol>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &apos;AuxiliaryRandomData&apos;" verbose="The one definition rule is violated, different classes/structs have the same name &apos;AuxiliaryRandomData&apos;" cwe="758">
+            <location file="Compression\fuzzers\delta_decompress_fuzzer.cpp" line="11" column="1"/>
+            <location file="Compression\fuzzers\gcd_decompress_fuzzer.cpp" line="13" column="1"/>
+            <symbol>AuxiliaryRandomData</symbol>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &apos;AuxiliaryRandomData&apos;" verbose="The one definition rule is violated, different classes/structs have the same name &apos;AuxiliaryRandomData&apos;" cwe="758">
+            <location file="Compression\fuzzers\delta_decompress_fuzzer.cpp" line="11" column="1"/>
+            <location file="Compression\fuzzers\lz4_decompress_fuzzer.cpp" line="12" column="1"/>
+            <symbol>AuxiliaryRandomData</symbol>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &apos;SimpleHash&apos;" verbose="The one definition rule is violated, different classes/structs have the same name &apos;SimpleHash&apos;" cwe="758">
+            <location file="Interpreters\examples\hash_map3.cpp" line="44" column="1"/>
+            <location file="Interpreters\examples\hash_map_string.cpp" line="214" column="1"/>
+            <symbol>SimpleHash</symbol>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &apos;Grower&apos;" verbose="The one definition rule is violated, different classes/structs have the same name &apos;Grower&apos;" cwe="758">
+            <location file="Interpreters\examples\hash_map3.cpp" line="50" column="1"/>
+            <location file="Interpreters\examples\hash_map_string.cpp" line="254" column="1"/>
+            <symbol>Grower</symbol>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &apos;FastHash64&apos;" verbose="The one definition rule is violated, different classes/structs have the same name &apos;FastHash64&apos;" cwe="758">
+            <location file="Interpreters\examples\hash_map_string.cpp" line="99" column="1"/>
+            <location file="Interpreters\examples\hash_map_string_3.cpp" line="97" column="1"/>
+            <symbol>FastHash64</symbol>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &apos;SimpleHash&apos;" verbose="The one definition rule is violated, different classes/structs have the same name &apos;SimpleHash&apos;" cwe="758">
+            <location file="Interpreters\examples\hash_map3.cpp" line="44" column="1"/>
+            <location file="Interpreters\examples\hash_map_string_3.cpp" line="241" column="1"/>
+            <symbol>SimpleHash</symbol>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &apos;CrapWow&apos;" verbose="The one definition rule is violated, different classes/structs have the same name &apos;CrapWow&apos;" cwe="758">
+            <location file="Interpreters\examples\hash_map_string.cpp" line="142" column="1"/>
+            <location file="Interpreters\examples\hash_map_string_3.cpp" line="169" column="1"/>
+            <symbol>CrapWow</symbol>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
